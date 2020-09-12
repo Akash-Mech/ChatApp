@@ -1,0 +1,153 @@
+ body{
+    font-size: 16px;
+    font-weight: 400;
+    background: linear-gradient(#ffffff,#f5f3f7);
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  /*Mobile*/
+  
+  .mobile{
+    width: 400px;
+    height: 800px;
+    border: 10px solid #FAFBFE;
+    border-radius:35px;
+    margin-top:50px;
+    margin-bottom: 50px;
+    background-color: #ECECEC;
+  }
+  
+  /*Header*/
+  
+  .header{
+    height:100px;
+    border-radius: 15px;
+    background : linear-gradient(#e942ff,#8838ff);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin:10px;
+    margin-bottom: 70px;
+    color:  #d89eff;
+  }
+  
+  .header:before{
+    content: "";
+    width: 200px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 0px 15px 15px;
+    background-color: #FAFBFE;
+  }
+  
+  .name:after{
+    content: "Available to walk";
+    display: flex;
+  }
+  
+  /* Message*/
+  
+  .message{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 5px 10px;
+    font-size: 12px;
+    border-radius: 10px 10px 20px 20px;
+    margin-top: 15px;
+  }
+  
+  .text-1 {
+    padding:15px;
+    border-radius: 15px;
+    background-color: #E9DBEB;
+    margin-bottom: 8px;
+    width: 65%;
+    color: #9241c8;
+  }
+  
+  
+  .user , .user-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    color: #6e5d7e;
+    
+  }
+  
+  
+  .user img{
+    width: 20%;
+    border-radius: 30%;
+    margin-bottom: 8px;
+    margin-right: 5px;
+    margin-top: 10px;
+  }
+  
+  
+  .user-1{
+      padding:8px;
+      border-radius: 15px;
+      background-color:#E9F2F1;
+      margin-bottom: 10px;
+      width: 60%;
+      margin-left: 40%;
+      align-items: center;
+  }
+  
+  
+  .rate{
+    padding: 8px;
+    background-color: #9B08B9;
+    border-radius:10px 8px 10px 8px;
+    width: 70%;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .rate i{
+    margin-right: 5px;
+  }
+  
+  
+  form {
+    color: #131111;
+    margin-top: 5px;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  
+  
+  .arrow{
+    font-size: 25px;
+    border-radius:50%;
+    margin-left :-40px;
+    margin-top:0px;
+    z-index: 100;
+  }
+  
+  
+  .btn{
+    border-radius: 50%;
+    background-color: #3e2753;
+  
+  }
+  
+  
+  .btn:hover{
+    background-color: #7BC864;
+  }
+  
+  
+  /* content*/
+  .content{
+    position: absolute;
+    top: 50%;
+    margin-top: auto;
+    margin-left: 60px;
+    text-align: justify;
+  }
